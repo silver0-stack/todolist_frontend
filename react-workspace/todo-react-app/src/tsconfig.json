@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "esnext",
+        "jsx": "react",
+        "sourceMap": true,
+        "noEmitOnError": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+       "**/*"
+, "../tsc.ts"      ],
+    
+}
