@@ -10,13 +10,10 @@
     "todo-react-app/*"
   ],
   "scripts": {
-    "start": "yarn run build && node dist/index.js",
-    "clean": "rm -rf dist",
-    "prebuild": "yarn clean",
-    "build": "rimraf ./dist && tsc",
-    "prebuild:watch": "yarn prebuild",
-    "build:watch": "tsc --watch",
-    "dev": "nodemon ./tsc.ts"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -43,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "react-error-overlay": "6.0.9",
     "rimraf": "^4.4.1",
     "typescript": "^3.4.0"
   },
